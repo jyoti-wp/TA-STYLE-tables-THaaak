@@ -215,3 +215,415 @@ img {
     margin: 0 auto;
     padding: 0px 35px;
 }
+
+/* frequently used colors */
+
+
+
+/* Header custom style  */
+
+.header {
+    padding: 20px 0px;
+    background: rgb(103, 109, 117, 0.6)
+}
+
+.head-bg-image {
+    background: url(assets/cta-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigation a {
+    padding: 10px;
+    color: #fff;
+    margin: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.signup {
+    background-color: #ED563A;
+    padding: 10px;
+    color: #fff;
+    margin: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.active:hover {
+    color: #ED563A;
+}
+
+
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* content sectoin  */
+
+.bg-content {
+    margin: 250px 0px;
+    text-align: center;
+}
+
+.bg-heading {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.main-heaging {
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 1.7;
+    text-transform: uppercase;
+    color: #fff
+}
+
+/* Program section main  */
+
+.program-section {
+    margin: 80px;
+}
+
+.pro-head,
+.schedule-head,
+.train-head {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.pro-img,
+.schedule-img,
+.train-img {
+    text-align: center;
+    margin: 10px;
+}
+
+.pro-image {
+    margin-right: 30px;
+}
+
+.pro-para,
+.schedule-para,
+.train-para {
+    text-align: center;
+    color: #A3A3A3;
+    line-height: 1.3;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 40px
+}
+
+.intro-head {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.pro-fitness {
+    /* width: 50%; */
+    margin: 40px 0px;
+}
+
+.pro-intro {
+    margin-right: 20px;
+}
+
+
+.basic-section {
+    margin: 60px 0px;
+}
+
+.intro-para {
+    font-size: 12px;
+    color: #A3A3A3;
+    line-height: 1.3;
+    font-weight: 100;
+}
+
+.pro-fitness a {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ED563A;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+/* Bg peocess section main  */
+
+.bg-progress {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.bg-pro-image {
+    background: url(assets/cta-bg.jpg);
+    background-size: cover;
+
+}
+
+.head-progress {
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 1.7;
+    text-transform: uppercase;
+    color: #fff
+}
+
+/* Classes Section  */
+
+.classes {
+    margin: 80px 0px;
+}
+
+.training-class {
+    width: 30%;
+}
+
+.class-list {
+    padding: 15px;
+    box-shadow: 1px 1px 6px 2px rgb(222, 231, 244);
+    margin-bottom: 40px;
+}
+
+.class-list img {
+    vertical-align: middle;
+}
+
+.class-list span {
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 1.3;
+    padding: 30px;
+}
+
+.btn {
+    background-color: #ED563A;
+    padding: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Training section  */
+.training-section {
+    width: 65%;
+}
+
+.train-head {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+
+.training-img img {
+    width: 100%;
+    border-radius: 8px;
+    height: 250px;
+}
+
+.train-para {
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-top: 20px
+}
+
+.btn-scd {
+    background-color: #ED563A;
+    padding: 12px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 15px 0px;
+}
+
+/* schedule section  */
+
+.schedule {
+    padding: 80px;
+}
+
+.schedule-bg {
+    background: url(assets/schedule-bg.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.week-day {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.3;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.week-day span {
+    margin: 0px 5px;
+}
+
+/* .week-day::hover {
+    color: #ED563A;
+} */
+
+
+.table {
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.3;
+    text-transform: capitalize;
+    width: 600px;
+    margin: 0 auto;
+    white-space: nowrap;
+    margin-top: 40px;
+}
+
+.table tr {
+    border: 1px solid #fff;
+}
+
+.table td {
+    border: 1px solid #fff;
+    padding: 30px;
+}
+
+
+/* trainer section  */
+
+.trainer-section {
+    margin: 40px;
+}
+
+.trainer {
+    margin-bottom: 60px;
+}
+
+.trainer-box {
+    width: 30.33%;
+    padding: 30px;
+    box-shadow: 1px 1px 6px 2px rgb(222 231 244);
+    margin: 0px 10px;
+}
+
+.trainer-box img {
+    width: 100%;
+}
+
+.trainer-box h4 {
+    color: #ED563A;
+    line-height: 1.7;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+
+.trainer-box h2 {
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.trainer-box p {
+    font-size: 14px;
+    text-transform: inherit;
+    line-height: 1.7;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.links a {
+    color: #272727;
+    margin-right: 10px;
+}
+
+/* map section  */
+/* .map iframe {
+    width: 100%;
+} */
+
+.form {
+    width: 50%;
+}
+
+.form-bg {
+    background: url(assets/contact-bg.jpg);
+}
+
+.map-form {
+    padding: 70px 40px;
+}
+
+.map-form input {
+    background-color: #F5F5F5;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    color: gray;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+#mname {
+    margin-right: 10px;
+    width: 43.5%;
+}
+
+#memail {
+    width: 43.5%;
+}
+
+#msubject,
+#mmessage {
+    width: 94%;
+}
+
+#mmessage {
+    padding-bottom: 100px;
+}
+
+.m-button button {
+    padding: 15px;
+    background-color: #ED563A;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Footer  */
+
+footer {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.footer-para {
+    text-transform: capitalize;
+    color: #A3A3A3;
+    font-size: 16px;
+}
